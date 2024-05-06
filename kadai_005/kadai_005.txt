@@ -1,0 +1,28 @@
+PS C:\Users\nakad> cd C:\Users\nakad\Desktop\samuraikadai
+PS C:\Users\nakad\Desktop\samuraikadai> mkdir git_tutorial
+
+
+    ディレクトリ: C:\Users\nakad\Desktop\samuraikadai
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2024/05/06     11:17                git_tutorial
+
+
+PS C:\Users\nakad\Desktop\samuraikadai> cd git_tutorial
+PS C:\Users\nakad\Desktop\samuraikadai\git_tutorial> git init
+Initialized empty Git repository in C:/Users/nakad/Desktop/samuraikadai/git_tutorial/.git/
+PS C:\Users\nakad\Desktop\samuraikadai\git_tutorial> echo "Hello, World!" >> hello_world.txt
+PS C:\Users\nakad\Desktop\samuraikadai\git_tutorial> git add hello_world.txt
+PS C:\Users\nakad\Desktop\samuraikadai\git_tutorial> git commit -m "hello_world.txtを追加"
+[main (root-commit) 2d6d48a] hello_world.txt繧定ｿｽ蜉
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+PS C:\Users\nakad\Desktop\samuraikadai\git_tutorial> git add hello_world.txt
+PS C:\Users\nakad\Desktop\samuraikadai\git_tutorial> git commit -m "日本語訳を追記"
+[main f4e4e4e] 譌･譛ｬ隱櫁ｨｳ繧定ｿｽ險
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+PS C:\Users\nakad\Desktop\samuraikadai\git_tutorial> git log --oneline
+f4e4e4e (HEAD -> main) 日本語訳を追記
+2d6d48a hello_world.txtを追加
